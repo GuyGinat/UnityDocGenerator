@@ -1,0 +1,141 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.class {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.class h2 {
+    margin: 0;
+    padding: 15px;
+    background-color: #54a470;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.method {
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+}
+
+.method-title {
+    font-size: 1.1em;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.method-details {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.return-type, .parameters {
+    margin: 3px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.namespace h2 {
+    cursor: pointer;
+    background-color: #607a96;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.class h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #9ecd96;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.namespace-classes, .methods-container {
+    margin-left: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.method-title {
+    color: #537d3f;
+    font-weight: bold;
+}
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #004494;
+}
+
+.namespace h2 {
+    cursor: pointer;
+    background-color: #48698c;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.namespace-content, .methods-container {
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.method-title {
+    color: #0056b3;
+    font-weight: bold;
+}
